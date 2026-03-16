@@ -47,6 +47,22 @@ const ReservationCalculator: React.FC = () => {
                 />
             </div>
 
+            {/* dodatkowe */}
+            <div className="form-element">
+                <label>
+                    <input type="checkbox" />
+                    Kapok dla dziecka (+5zł)
+                </label>
+            </div>
+
+            <div className="form-element">
+                <label>
+                    <input type="checkbox" />
+                    Instruktor (+50zł/h)
+                </label>
+            </div>
+
+
         </form>
     </div>
     );
