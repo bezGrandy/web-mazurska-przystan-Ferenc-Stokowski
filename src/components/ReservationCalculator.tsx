@@ -62,6 +62,39 @@ const ReservationCalculator: React.FC = () => {
                 </label>
             </div>
 
+            {/* Platnosc */}
+
+            <div className="form-element">
+                <label>Metoda płatności</label>
+
+                <label>
+                    <input type="radio" name="payment" />
+                    Karta
+                </label>
+
+                <label>
+                    <input type="radio" name="payment" />
+                    BLIK
+                </label>
+            </div>
+
+            {/* Regulamin */}
+            <div className="form-element">
+                <label>
+                    <input type="checkbox" />
+                    Akceptuję regulamin
+                </label>
+            </div>
+
+            {/* Cena */}
+
+            <div className="price-box">
+                Cena: <strong>0 zł</strong>
+            </div>
+
+            <button className="submit-button" disabled>
+                Rezerwuj
+            </button>
 
         </form>
     </div>
