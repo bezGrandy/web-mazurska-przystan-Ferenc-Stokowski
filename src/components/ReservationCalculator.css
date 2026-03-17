@@ -1,0 +1,73 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    width: 100%;
+    max-width: 420px;
+
+    padding: 24px;
+    border-radius: 10px;
+    background: #f5f7fa;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+input, select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.price-box {
+    font-size: 20px;
+    text-align: center;
+}
+
+.submit-button {
+    padding: 12px;
+    background: #0077ff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #1962b5;
+}
+
+.submit-button:hover {
+    background: #659cdb;
+    transition: ease-out 0.2s;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #589ded;
+}
+
+.submit-button:active {
+    border: none;
+    box-shadow: none;
+    background: #0077ff;
+    transition-duration: 0.5s;
+    transition: ease-out 0.3s;
+    transform: scale(0.9);
+}
+
+
+.submit-button:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+
+.warning {
+    color: #d97706;
+    font-size: 14px;
+}

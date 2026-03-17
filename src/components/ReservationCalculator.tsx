@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "./ReservationCalculator.css";
 
 const ReservationCalculator: React.FC = () => {
 
@@ -92,7 +93,7 @@ const ReservationCalculator: React.FC = () => {
                 Cena: <strong>0 zł</strong>
             </div>
 
-            <button className="submit-button" disabled>
+            <button className="submit-button">
                 Rezerwuj
             </button>
 
