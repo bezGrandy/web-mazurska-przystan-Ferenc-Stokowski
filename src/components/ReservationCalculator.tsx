@@ -31,7 +31,7 @@ const ReservationCalculator: React.FC = () => {
 
             {/* Ostrzezenie o zaglowce */}
 
-            <div className="warning">
+            <div className="warning"> {/* zmien tutaj ze pokazuje sie tylko przy wyborze omegi */}
                   Przy żaglówce wymagany jest paten żeglarski!
             </div>
 
