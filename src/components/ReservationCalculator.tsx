@@ -13,6 +13,11 @@ const ReservationCalculator: React.FC = () => {
     const [payment, setPayment] = useState("");
     const [acceptedRules, setAcceptedRules] = useState(false);
 
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        alert(`Dziękujemy za rezerwację, ${name}!`);
+    };
+
     const totalPrice = calculatePrice({
         equipment,
         hours,
@@ -25,7 +30,7 @@ const ReservationCalculator: React.FC = () => {
         <div className="app-container">
             <h1>Kalkulator wynajmu</h1>
 
-        <form className="reservation-form">
+        <form className="reservation-form" onSubmit={handleSubmit}>
 
             {/* Imie */}
 
