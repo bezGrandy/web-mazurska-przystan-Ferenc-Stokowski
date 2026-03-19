@@ -43,14 +43,15 @@ input, select {
     border: 2px solid #1962b5;
 }
 
-.submit-button:hover {
+.submit-button:not(:disabled):hover {
     background: #659cdb;
     transition: ease-out 0.2s;
     transform: scale(1.05);
     box-shadow: 0 0 15px #589ded;
+
 }
 
-.submit-button:active {
+.submit-button:not(:disabled):active {
     border: none;
     box-shadow: none;
     background: #0077ff;
@@ -67,11 +68,14 @@ input, select {
 .submit-button:disabled {
     background: #999;
     cursor: not-allowed;
+    border:none;
+
 }
 
 .warning {
     color: #d97706;
     font-size: 14px;
+    min-height: 18px;
 }
 
 input[type="range"] {
