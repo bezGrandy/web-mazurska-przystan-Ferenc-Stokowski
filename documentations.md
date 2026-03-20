@@ -109,15 +109,22 @@ ustawia formularz na środku w pionie.
 
 ---
 ## 6. Wnioski z realizacji projektu (SDLC)
-* **Co było najtrudniejsze?** Poprawne zarządzanie stanem w React oraz powiązanie formularza z dynamicznym obliczaniem ceny.
+* **Co było najtrudniejsze?** 
+Poprawne zarządzanie stanem w React oraz powiązanie formularza z dynamicznym obliczaniem ceny.
+
 * **Czego nowego się nauczyliście?**
 - pracy z React i hookiem useState
 - podziału projektu na komponenty i logikę
-- pisania funkcji w TypeScript
 - stylowania aplikacji za pomocą Flexbox
 - tworzenia interaktywnych formularzy
   
 * **Co byście zmienili, gdybyście mieli więcej czasu?**
+
+Poprawić layout żeby formularz nie przesuwał 
+się ani nie zmieniał rozmiaru po pojawieniu się ostrzeżenia
+o żaglówce, wyświetlanie sie komunikatów w czasie rzeczywistym
+z informacją jakie pole musi być jeszcze wypełnione żeby można bylo zarezerwować.
+
 ---
 ## 7. Checklisty (Zaznacz [x])
 - [x] Aplikacja uruchamia się bez błędów (npm start).
