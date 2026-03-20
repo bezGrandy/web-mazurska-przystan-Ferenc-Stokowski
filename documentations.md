@@ -88,8 +88,10 @@ Opcje dodatkowe:
 Następnie do ceny doliczane są dodatki:
 - kapok dla dziecka +5 zł
 - instruktor +50 zł × liczba godzin
-- 
+
 Ostateczny wzór:
+cena_koncowa = cena_sprzetu * godziny + cena_kapoku * kapok_dziecka? + instruktor? * 50 * godziny
+
 
 ---
 ## 5. Layout i Stylizacja (`Flexbox`)
